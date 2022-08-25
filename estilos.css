@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
+.bgnav{
+    background: linear-gradient(252deg, rgba(36,35,35,1) 0%, rgba(94,80,67,0.8071603641456583) 56%, rgba(36,35,35,1) 100%);
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+}
+
+h1{
+    font-size: 50px;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+.logo1{
+    font-size: 30px;
+}
+
+.navbar-brand{
+    text-shadow: 0 0 5px black;
+    font-weight: bold;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.navbar-brand::before{
+   content: "🏡";
+   font-size: 50px;
+}
+
+.jumbotron{
+    background-image: url(./img/h1.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    border-radius: 0;    
+    height: 500px;
+    text-shadow: 0 0 5px white;
+    margin: 0;
+    
+}
+
+.btn-success{
+    background-color: grey;
+}
+
+.btn-success:hover{
+    background-color: blueviolet;
+}
+
+.nav-link{
+    color: white !important;    
+    text-shadow: 0 0 5px black;
+}
+
+.nav-link:hover{
+    color:blueviolet !important;
+}
+
+.colorspan{color: blueviolet;}
+
+
+h2{background-color:rgb(36, 35, 35) ;
+color: white;
+text-align: center;
+margin-bottom: 0;
+}
+
+.al{
+    background-image: url(./img/nosotros1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.ar{
+    background-image: url(./img/nosotros2.jpg);
+     height: 400px;    
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+aside p{
+    color: white;
+}
+
+h3{
+    text-align: center;
+    text-shadow: 0 0 5px white;
+    color: white
+    }
+
+p::selection{
+        color: #8a2be2;
+}
+
+.productos{
+    background-color: brown;
+    height: auto;
+}
+
+.container-fluid{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer{
+    background: linear-gradient(252deg, rgba(36,35,35,1) 0%, rgba(94,80,67,0.8071603641456583) 56%, rgba(36,35,35,1) 100%);
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.redes{
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+
+
+  /* Nosotros */
+
+  .ancho{
+    width: 100%;
+     
+    }
+
+  .ar1{
+    
+     height: 400px;   
+     background: linear-gradient(252deg, rgba(36,35,35,1) 0%, rgba(94,80,67,0.8071603641456583) 56%, rgba(36,35,35,1) 100%); 
+    
+}
+
+.al1{
+    background-image: url(./img/n5.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
