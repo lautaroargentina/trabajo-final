@@ -150,8 +150,7 @@ footer {
 
 .sectionB {
   width: 50%;
-  height: auto;
-  margin-left: 300px;
+  height: auto;  
   padding: 30px;
   border: dashed 2px grey;
   overflow: auto;
